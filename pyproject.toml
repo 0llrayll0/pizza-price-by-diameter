@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "project-ml"
+version = "0.1.0"
+description = ""
+authors = ["0llrayll0 <raulsalvador2008@gamil.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.3"
+scikit-learn = "^1.5.2"
+streamlit = "^1.39.0"
+matplotlib = "^3.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
